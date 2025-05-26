@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using CoffeeMachine;
+
+
+CoffeeService coffeeService = new CoffeeService();
+CoffeeMachine.CoffeeMachine machine = new CoffeeMachine.CoffeeMachine(coffeeService);
+
